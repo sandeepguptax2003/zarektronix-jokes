@@ -16,13 +16,14 @@ This command line tool interacts with the "icanhazdadjoke" API to fetch and disp
 - **Error Handling**: Provides witty error messages when no jokes are found for the search term.
 - **Leaderboard**: Implements a feature to display the most popular joke stored in 'jokes.txt' with the number of laughs it received.
 
+
 ## Example
 To run the tool, use the following command:
-```bash
-1.Search for a Joke:
+
+1. Search for a Joke:
 node joke-cli.js [searchTerm]
 
-2.View Leaderboard:
+2. View Leaderboard:
 node joke-cli.js [leaderboard]
 
 ## Usage
@@ -31,3 +32,6 @@ leaderboard: Display the most popular joke stored in the 'jokes.txt' file.
 
 ## Code Overview
 The code contains functions to interact with the API, handle file operations, display random jokes, and manage the leaderboard feature. It's organized into modular functions for ease of understanding and maintenance.
+
+
+
